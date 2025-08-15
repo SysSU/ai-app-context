@@ -1,0 +1,3 @@
+This is a context engineering boilerplate I created to help me or possibly other engineers start diving into context engineering for TypeScript applications specifically Next.js. It's still heavily a work in process and was heavily inspired and based off of https://github.com/Wirasm/PRPs-agentic-eng.git.
+
+This README will be updated at a later time as the template progresses, because as I mentioned this is still a work in progress. However, if you want to jump in using it right now, go ahead and read context-readme.md.

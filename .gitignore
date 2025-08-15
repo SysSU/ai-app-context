@@ -1,0 +1,7 @@
+# Dev-generated files
+build/
+dist/
+
+# Virtual environments
+.env
+.claude/agents
