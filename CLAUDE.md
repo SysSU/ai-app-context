@@ -64,6 +64,8 @@ npm run typecheck
 
 # Level 2: Unit Tests
 npm test
+# CRITICAL: Update existing tests when changing behavior
+# CRITICAL: Write new tests for all new functionality
 
 # Level 3: Integration
 npm run dev
@@ -78,10 +80,12 @@ npm run build
 
 - Don't create minimal context prompts - context is everything - the PRP must be comprehensive and self-contained, reference relevant documentation and examples.
 - Don't skip validation steps - they're critical for one-pass success - The better The AI is at running the validation loop, the more likely it is to succeed.
+- Don't skip writing or updating tests - tests are part of the implementation, not an afterthought
 - Don't ignore the structured PRP format - it's battle-tested
 - Don't create new patterns when existing templates work
 - Don't hardcode values that should be config
 - Don't catch all exceptions - be specific
+- Don't forget to update README.md when making significant changes to project structure, features, or setup requirements
 
 ## Working with This Framework
 
@@ -96,7 +100,9 @@ npm run build
 2. **ULTRATHINK**: Create comprehensive plan, break down into todos, use subagents, batch tool etc check prps/ai_docs/
 3. **Execute**: Implement following the blueprint
 4. **Validate**: Run each validation command, fix failures
-5. **Complete**: Ensure all checklist items done
+5. **Test**: Ensure all tests pass and update/create tests for any changes
+6. **Complete**: Ensure all checklist items done
+7. **Document**: Update README.md if changes affect project setup, architecture, or user-facing features
 
 ### Command Usage
 
